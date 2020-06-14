@@ -67,18 +67,31 @@
     {
         "key": "t6",
         "data":{
-            "name": "Unknown",
-            "info": "???",
+            "name": "Thomas",
+            "info": "Quality Assurance",
             "contact": {
-                "office": "???",
-                "mobile": "???",
-                "sms": "???",
-                "email": "???"
+                "office": "781-000-957",
+                "mobile": "087-871-0222",
+                "sms": "617-000-992",
+                "email": "thomas@company.ie"
+            }
+        }
+    },
+    {
+        "key": "t7",
+        "data":{
+            "name": "Model",
+            "info": "Manager",
+            "contact": {
+                "office": "1111-1111-11",
+                "mobile": "22-222-222",
+                "sms": "333-333-33",
+                "email": "Model@company.ie"
             }
         }
     },
      {  
-        "key": "t7",
+        "key": "t8",
         "data":{
             "name": "Sarah",
             "info": "UI/UX Designer",
