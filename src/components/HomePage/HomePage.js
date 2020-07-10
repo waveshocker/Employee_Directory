@@ -1,6 +1,6 @@
 import React from 'react';
 import {FormControl} from 'react-bootstrap';
-import EmployeeList from "../EmployeeList/EmployeeList.js";
+import Employee from "../Employee/Employee.js";
 
 class HomePage extends React.Component {
 
@@ -12,7 +12,7 @@ class HomePage extends React.Component {
             <div className="home-container">
                 <h1>Employee Directory</h1>
                 <FormControl onChange={this.onChange}/>
-                <EmployeeList employeeData={this.props.employeeData} onEmployeeClick={this.props.onEmployeeClick}/>                
+                <Employee employeeData={this.props.employeeData} onEmployeeClick={this.props.onEmployeeClick}/>                
             </div>
         );
     };

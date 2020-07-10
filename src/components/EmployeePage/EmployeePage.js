@@ -1,5 +1,5 @@
 import React from "react";
-import EmployeePanel from "../EmployeePanel/EmployeePanel.js";
+import EmployeePanel from "../EmployeeTab/EmployeeTab.js";
 
 class EmployeePage extends React.Component {
 

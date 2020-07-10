@@ -1,5 +1,5 @@
 import React from 'react'
-import {Col, Row, Button, Glyphicon, Panel, ListGroupItem, ListGroup, FormControl } from 'react-bootstrap'
+import {Col } from 'react-bootstrap'
 import employeeList from './employeeList.json';
 import HomePage from './components/HomePage/HomePage.js'
 import EmployeePage from './components/EmployeePage/EmployeePage.js'

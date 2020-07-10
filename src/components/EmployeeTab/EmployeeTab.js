@@ -1,11 +1,11 @@
 import React from "react"
 import {Card, ListGroup, ListGroupItem} from 'react-bootstrap'
-import EmployeePanelHeader from './EmployeePanelHeader.js'
+import EmployeeTabHeader from './EmployeeTabHeader.js'
 
-class EmployeePanel extends React.Component {
+class EmployeeTab extends React.Component {
 
     render() {
-        const employeePanelHeader = <EmployeePanelHeader employee={this.props.employee}/>
+        const employeePanelHeader = <EmployeeTabHeader employee={this.props.employee}/>
         const {contact} = this.props.employee
 
         return (
@@ -21,4 +21,4 @@ class EmployeePanel extends React.Component {
     }
 }
 
-export default EmployeePanel
+export default EmployeeTab

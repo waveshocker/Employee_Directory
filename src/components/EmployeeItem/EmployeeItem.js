@@ -1,6 +1,6 @@
 import React from "react"
 
-class EmployeeListItem extends React.Component {
+class EmployeeItem extends React.Component {
 
     onClick = () => {
         this.props.onEmployeeClick(this.props.employee)
@@ -8,10 +8,8 @@ class EmployeeListItem extends React.Component {
 
     render() {
         const {name, info} = this.props.employee
-        const image = "images/" + name + ".jpg"
         return (
             <div className="employee-item" sstyle = {this.props.style} onClick={this.onClick}>
-                <img src={image}></img>
                 <div className="employee-item-text">
                     <h2>{name}</h2>
                     <p>{info}</p>
@@ -21,5 +19,5 @@ class EmployeeListItem extends React.Component {
     }
 }
 
-export default EmployeeListItem
+export default EmployeeItem
     
